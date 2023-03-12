@@ -6,6 +6,7 @@ mod routes;
 mod helpers;
 pub mod models;
 pub mod handlers;
+pub mod utils;
 
 
 #[actix_web::main]

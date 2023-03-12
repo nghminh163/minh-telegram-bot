@@ -15,6 +15,6 @@ pub fn respond_ok() -> Result<HttpResponse> {
     Ok(HttpResponse::Ok().body(""))
 }
 
-pub fn respond_str(inp: String) -> Result<HttpResponse> {
-    Ok(HttpResponse::Ok().body(inp))
-}
+// pub fn respond_str(inp: String) -> Result<HttpResponse> {
+//     Ok(HttpResponse::Ok().body(inp))
+// }
